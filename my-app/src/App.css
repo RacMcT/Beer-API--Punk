@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.beerCard {
+  width: 700px;
+  background: #474e5c;
+  margin: 90px 0;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.beerCard > img {
+  height: 300px;
+  align-self: center;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  padding: 0 30px;
+}
+
+.cardInfo > h3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
